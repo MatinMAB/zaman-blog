@@ -2,15 +2,15 @@
 import { Routes, Route } from "react-router-dom";
 
 //Components
-import Blogs from "./pages/Blogs";
-import Blog from "./pages/Blog";
+import BlogsPage from "./pages/BlogsPage";
+import BlogPage from "./pages/BlogPage";
 
 export default function Router() {
  return (
   <>
    <Routes>
-    <Route path="/" element={<Blogs />} />
-    <Route path="/:slug" element={<Blog />} />
+    <Route path="/" element={<BlogsPage />} />
+    <Route path="/:slug" element={<BlogPage />} />
    </Routes>
   </>
  );
