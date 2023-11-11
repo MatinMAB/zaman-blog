@@ -1,3 +1,7 @@
+//Router
+import Router from './Router'
+
+//CSS Styles
 import './App.css'
 
 function App() {
@@ -5,7 +9,7 @@ function App() {
 
   return (
     <>
-      <h2>Test</h2>
+      <Router/>
     </>
   )
 }
